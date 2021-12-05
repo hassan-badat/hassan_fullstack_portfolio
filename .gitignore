@@ -1,0 +1,10 @@
+# dependencies
+/node_modules
+
+# lock files
+yarn.lock
+package.lock
+
+# DS_STORE
+.DS_STORE
+
