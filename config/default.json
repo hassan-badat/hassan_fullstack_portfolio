@@ -1,4 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://hassan_badat:MongoPass@cluster0.qujhy.mongodb.net/v1?retryWrites=true&w=majority",
-  "jwtSecret": "my_super_secret_code"
-}
