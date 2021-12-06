@@ -36,6 +36,10 @@ I demonstrate creating, reading, updating, and deleting throughout all of the ro
 ./routes/v1/*
 ```
 
+### Aggregation Framework
+
+I am fairly familiar with [MongoDB's aggregation framework](https://docs.mongodb.com/manual/aggregation/). Checkout the following files to see some use cases.
+
 ### Writing Clean and Readable code
 
 Take a look at the main server file to see how I break up the code to prevent any file from becoming too large.
