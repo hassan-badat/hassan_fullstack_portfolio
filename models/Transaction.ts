@@ -3,13 +3,13 @@ import mongoose, { Schema, Types } from 'mongoose';
 type ObjectId = typeof Types.ObjectId;
 
 interface ITransaction {
-  product: ObjectId;
+  products: ObjectId[];
   customer: ObjectId;
   date: Date;
 }
 
 const TransactionSchema = new Schema<ITransaction>({
-  product: { type: Types.ObjectId },
+  products: [{ type: Types.ObjectId }],
   customer: { type: Types.ObjectId },
   date: { type: Date },
 });

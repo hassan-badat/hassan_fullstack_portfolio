@@ -14,7 +14,7 @@ export default (req: Request, res: Response, next: NextFunction) => {
   try {
     const decoded = jwt.verify(token, config.get('jwtSecret'));
 
-    // @ts-ignore
+    //@ts-ignore
     req.user_id = decoded.user_id;
 
     next();
